@@ -13,7 +13,7 @@ export default function Editor() {
   return (
     <textarea
       className="col-3"
-      style={{height: '100vh', overflow: 'auto'}}
+      style={{height: '98vh', overflow: 'auto', top: '1vh', right: '.6vw', position: 'absolute', padding: '5px'}}
       id="editor"
       onChange={handleChange}
       value={text}

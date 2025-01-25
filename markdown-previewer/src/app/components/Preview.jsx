@@ -8,8 +8,14 @@ export default function Preview() {
   return (
     <div
       className="col-9"
-      style={{height: '100vh',
-              webkitOverflowScrolling: 'touch'}}
+      style={{height: '98vh',
+              webkitOverflowScrolling: 'touch',
+              position: 'absolute',
+              left: '.6vw',
+              top: '1vh',
+              padding: 0,
+              width: '73%',
+              overflowY: 'auto'}}
       id="preview"
       dangerouslySetInnerHTML={{
         __html: marked.parse(text || '')
