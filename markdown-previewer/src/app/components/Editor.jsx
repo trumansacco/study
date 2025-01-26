@@ -27,7 +27,7 @@ export default function Editor() {
       id="editor"
       onChange={handleChange}
       value={text}
-      placeholder="Type markdown here..."
+      placeholder="HTML goes here..."
     />
   )
 }
