@@ -15,7 +15,9 @@ export default function Preview() {
               top: '1vh',
               padding: 0,
               width: '73%',
-              overflowY: 'auto'}}
+              overflowY: 'auto',
+              backgroundColor: 'white',
+              borderRadius: '8px'}}
       id="preview"
       dangerouslySetInnerHTML={{
         __html: marked.parse(text || '')
